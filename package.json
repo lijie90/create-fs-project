@@ -5,7 +5,7 @@
   "bin": "index.js",
   "type": "module",
   "keywords": [],
-  "author": "fs-ajay",
+  "author": "jack",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.2.0",
