@@ -56,7 +56,7 @@ const promptsOptions = [
 ];
 //远程项目地址
 const remoteList = {
-    1: 'https://github.com/lijie90/fs-react',
+    1: 'https://github.com/lijie90/fs-react.git',
     2: ''
 };
 const getUserInfo = async () => {
