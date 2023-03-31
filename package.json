@@ -1,6 +1,6 @@
 {
   "name": "create-fs-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react project template",
   "bin": "index.js",
   "type": "module",
