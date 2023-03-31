@@ -1,11 +1,11 @@
 {
   "name": "create-fs-project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react project template",
   "bin": "index.js",
   "type": "module",
   "keywords": [],
-  "author": "jack",
+  "author": "lijie",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.2.0",
