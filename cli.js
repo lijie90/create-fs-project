@@ -56,7 +56,7 @@ const promptsOptions = [
 ];
 //远程项目地址
 const remoteList = {
-    1: 'https://gitee.com/geeksdidi/kittyui.git',
+    1: 'https://github.com/lijie90/fs-react',
     2: 'https://github.com/qddidi/easyest.git'
 };
 const getUserInfo = async () => {
