@@ -17,9 +17,5 @@
     "download-git-repo": "^3.0.2",
     "ora": "^6.1.2",
     "prompts": "^2.4.2"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "author": "lijie90"
   }
 }
