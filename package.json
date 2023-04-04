@@ -1,9 +1,9 @@
 {
   "name": "create-fs-project",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "description": "react project template",
   "bin": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "keywords": [],
   "author": "lijie90",
   "license": "ISC",
