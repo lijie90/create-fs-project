@@ -1,15 +1,12 @@
 {
   "name": "create-fs-project",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "description": "react project template",
   "bin": "index.js",
   "type": "commonjs",
   "keywords": [],
   "author": "lijie90",
   "license": "ISC",
-  "scripts": {
-    "publish": "node ./publish.js"
-  },
   "dependencies": {
     "chalk": "^5.2.0",
     "command-line-args": "^5.2.1",
