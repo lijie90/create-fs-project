@@ -5,7 +5,7 @@
   "bin": "index.js",
   "type": "commonjs",
   "keywords": [],
-  "author": "lijie",
+  "author": "lijie90",
   "license": "ISC",
   "scripts": {
     "publish": "node ./publish.js"
