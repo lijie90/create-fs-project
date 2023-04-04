@@ -1,6 +1,6 @@
 {
   "name": "create-fs-project",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "react project template",
   "bin": "index.js",
   "type": "commonjs",
@@ -19,6 +19,7 @@
     "prompts": "^2.4.2"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "author": "lijie"
   }
 }
