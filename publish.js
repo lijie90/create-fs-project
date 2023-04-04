@@ -28,15 +28,16 @@ exec(`npm version ${version}`, (error, stdout, stderr) => {
         process.exit();
     }
     console.log(`更新版本号：${version}`);
+    // 执行npm命令
+    exec(`npm publish`, (error, stdout, stderr) => {
+        if (error) {
+            console.log(error);
+            process.exit();
+        }
+        console.log(`发布成功：${name}@${version}`);
+    });
 });
-// 执行npm命令
-exec(`npm publish`, (error, stdout, stderr) => {
-    if (error) {
-        console.log(error);
-        process.exit();
-    }
-    console.log(`发布成功：${name}@${version}`);
-});
+
 
 
 
