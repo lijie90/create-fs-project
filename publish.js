@@ -37,6 +37,7 @@ exec(`npm version ${version}`, (error, stdout, stderr) => {
         console.log(`发布成功：${name}@${version}`);
     });
 });
+//有点问题
 
 
 
