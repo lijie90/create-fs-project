@@ -1,7 +1,9 @@
 //nodejs脚本自动发布npm包
-const fs = require('fs');
-const path = require('path');
-const exec = require('child_process').exec;
+// const fs = require('fs');
+import path from 'path';
+import { exec } from 'child_process';
+// const path = require('path');
+// const exec = require('child_process').exec;
 
 //版本号自动更新
 const versionUpdate = (version) => {
