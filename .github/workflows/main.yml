@@ -15,7 +15,7 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm -v
-      - run: npm install pnpm -g
+      - run: npm install pnpm@7.5.0 -g
       - run: pnpm install
       - run: npm run update-version
       - run: npm publish
