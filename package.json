@@ -7,6 +7,9 @@
   "keywords": [],
   "author": "lijie90",
   "license": "ISC",
+  "scripts": {
+    "update-version": "node ./publish.js"
+  },
   "dependencies": {
     "chalk": "^5.2.0",
     "command-line-args": "^5.2.1",

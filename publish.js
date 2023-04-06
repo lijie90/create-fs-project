@@ -16,7 +16,7 @@ const packageJson = require(path.join(currentPath, 'package.json'));
 // 获取版本号
 const version = versionUpdate(packageJson.version);
 // 获取包名
-const name = packageJson.name;
+// const name = packageJson.name;
 // 获取npm包发布地址
 //开始发布
 console.log('开始发布');
@@ -29,15 +29,14 @@ exec(`npm version ${version}`, (error, stdout, stderr) => {
     }
     console.log(`更新版本号：${version}`);
     // 执行npm命令
-    exec(`npm publish`, (error, stdout, stderr) => {
-        if (error) {
-            console.log(error);
-            process.exit();
-        }
-        console.log(`发布成功：${name}@${version}`);
-    });
+    // exec(`npm publish`, (error, stdout, stderr) => {
+    //     if (error) {
+    //         console.log(error);
+    //         process.exit();
+    //     }
+    //     console.log(`发布成功：${name}@${version}`);
+    // });
 });
-//有点问题
 
 
 
