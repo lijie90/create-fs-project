@@ -16,7 +16,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: npm -v
       - run: npm install pnpm -g
-      - run: pnpm i
+      - run: pnpm install
       - run: npm run update-version
       - run: npm publish
         env:
