@@ -8,7 +8,7 @@
   "author": "lijie90",
   "license": "ISC",
   "scripts": {
-    "update-version": "node ./publish.js"
+    "update-version": "node ./publish.cjs"
   },
   "dependencies": {
     "chalk": "^5.2.0",

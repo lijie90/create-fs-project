@@ -1,10 +1,7 @@
 //nodejs脚本自动发布npm包
 // const fs = require('fs');
-import path from 'path';
-import { exec } from 'child_process';
-import packageJson from '../package.json';
-// const path = require('path');
-// const exec = require('child_process').exec;
+const path = require('path');
+const exec = require('child_process').exec;
 
 //版本号自动更新
 const versionUpdate = (version) => {
@@ -15,7 +12,7 @@ const versionUpdate = (version) => {
 // 获取当前目录
 const currentPath = process.cwd();
 // 获取package.json文件
-// const packageJson = require(path.join(currentPath, 'package.json'));
+const packageJson = require(path.join(currentPath, 'package.json'));
 // 获取版本号
 const version = versionUpdate(packageJson.version);
 // 获取包名
