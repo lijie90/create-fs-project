@@ -17,5 +17,9 @@
     "download-git-repo": "^3.0.2",
     "ora": "^6.1.2",
     "prompts": "^2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijie90/create-fs-project"
   }
 }
